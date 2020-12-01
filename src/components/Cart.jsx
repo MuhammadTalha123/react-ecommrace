@@ -65,7 +65,7 @@ const Cart = (props) => {
                 </div>
        <div className="stripSection">
        <StripeCheckout
-       stripeKey="pk_test_HnF0cQhq9UGw2GvWRltNiAQM00kn9HlRCg"
+       stripeKey="pk_test_51HtMxxL92pcr7Ittheds4LcffDAHmKBmJcsUf4Bltwqp6Tuflj3BZCKAppiq92tFqlor41cKSAEN8MSRCFP0sHbJ00oIyhx2yQ"
        token={handleToken}
        billingAddress
        shippingAddress
