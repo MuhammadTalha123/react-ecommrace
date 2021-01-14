@@ -18,7 +18,7 @@ nav {
   position: fixed;
   top:0;
   box-shadow: 0 1px 3px rgba(0,0,0,.1);
-  padding: 0 50px;
+  padding: 0 40px;
   display: flex;
   z-index: 9999;
 }
@@ -175,7 +175,7 @@ nav ul li .shoppingCartTotal {
 .cartContainer {
   width: 100%;
   margin-top: 100px;
-  padding: 0 104px;
+  padding: 0;
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
@@ -185,6 +185,7 @@ nav ul li .shoppingCartTotal {
   width: 75%;
   border: 1px solid #fafafa;
   border-radius: 5px;
+  text-align: center;
 }
 
 .cart {
@@ -335,6 +336,11 @@ nav ul li .shoppingCartTotal {
   margin: 15px 0;
   border-top: 1px solid #999;
   padding-top: 15px;
+}
+
+.stripSection button {
+  outline: none;
+  outline-style: none;
 }
 
 .error {
