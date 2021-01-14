@@ -20,10 +20,11 @@ nav {
   box-shadow: 0 1px 3px rgba(0,0,0,.1);
   padding: 0 50px;
   display: flex;
+  z-index: 9999;
 }
 
 nav ul {
-  width: 100%;
+  width: 50%;
 }
 
 nav .left {
@@ -46,6 +47,7 @@ nav ul li {
 }
 
 nav ul li a {
+  display: block;
   text-decoration: none;
   color: #222;
 }
