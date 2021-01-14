@@ -197,8 +197,8 @@ nav ul li .shoppingCartTotal {
 
 .cartProImage {
   display: inline-block;
-  width: 80px;
-  height: 80px;
+  width: 150px;
+  height: 130px;
   position: relative;
 }
 .imageCount {
@@ -560,4 +560,9 @@ header h1 {
   .headerText h1 {
     font-size: 18px;
   }
+
+  .cartProImage {
+    width: 150px;
+    height: 130px;
+  }  
 }
